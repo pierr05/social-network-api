@@ -18,7 +18,7 @@ const thoughtSchema = new Schema(
             type: Date,
             default: Date.now(),
             //timestamps need to be added
-            get: (date) => timeSince(date) 
+            // get: (timestamps) => dateFormat(timestamps)
         }, 
         
         reactions: [reactionSchema],
